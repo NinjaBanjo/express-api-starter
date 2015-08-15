@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "API",
+    "script": "index.js",
+    "env": {
+      "NODE_ENV": "staging"
+    },
+    "instances": 2,
+    "exec_mode": "cluster_mode",
+    "error_file": "../logs/api-err.log",
+    "out_file": "../logs/api-out.log"
+  }]
+}

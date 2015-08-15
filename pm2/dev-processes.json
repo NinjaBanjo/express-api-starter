@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "API",
+    "script": "index.js",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "instances": 1,
+    "exec_mode": "fork",
+    "error_file": "./logs/api-err.log",
+    "out_file": "./logs/api-out.log"
+  }]
+}
